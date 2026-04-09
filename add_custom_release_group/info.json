@@ -1,0 +1,13 @@
+{
+    "author": "dacid44",
+    "compatibility": [ 2 ],
+    "description": "A plugin to rename files with a custom release group for quality scoring in sonarr/radarr",
+    "icon": "https://raw.githubusercontent.com/Josh5/unmanic/master/icon.png",
+    "id": "add_custom_release_group",
+    "name": "Add Custom Release Group",
+    "priorities": {
+        "on_postprocessor_task_results": 0
+    },
+    "tags": "rename,postprocessor",
+    "version": "0.0.1"
+}

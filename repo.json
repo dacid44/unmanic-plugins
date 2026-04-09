@@ -1,0 +1,26 @@
+{
+    "repo": {
+        "id": "repository.dacid44",
+        "name": "dacid44's Repo",
+        "icon": "",
+        "repo_data_directory": "https://raw.githubusercontent.com/dacid44/unmanic-plugins/repo/",
+        "repo_data_url": "https://raw.githubusercontent.com/dacid44/unmanic-plugins/repo/repo.json"
+    },
+    "plugins": [
+        {
+            "author": "dacid44",
+            "compatibility": [
+                2
+            ],
+            "description": "A plugin to rename files with a custom release group for quality scoring in sonarr/radarr",
+            "icon": "https://raw.githubusercontent.com/Josh5/unmanic/master/icon.png",
+            "id": "add_custom_release_group",
+            "name": "Add Custom Release Group",
+            "priorities": {
+                "on_postprocessor_task_results": 0
+            },
+            "tags": "rename,postprocessor",
+            "version": "0.0.1"
+        }
+    ]
+}
